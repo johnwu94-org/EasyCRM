@@ -6,6 +6,6 @@ install:
   - pip install -r requirements.txt
 script: 
   - nosetests -v
-    echo done
+    echo $(date)
     pwd
     ls -al

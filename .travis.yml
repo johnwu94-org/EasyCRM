@@ -7,3 +7,5 @@ install:
 script: 
   - nosetests -v
     echo done
+    pwd
+    ls -al
